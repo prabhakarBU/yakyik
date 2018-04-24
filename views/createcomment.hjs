@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Create Zone</title>
+</head>
+<body>
+    <form action="/api/comment" method="post">
+        <input type="text" name="username" id="" placeholder="UserName" />
+        <input type="text" name="body" id="" placeholder="Body" />
+        </br>
+        <input type="submit" value="Create Comment" />
+    </form>
+</body>
+</html>
